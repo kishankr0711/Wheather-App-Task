@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body background="assest/images/bg.jpg">
+
+    <h1 class="heading">Weather App</h1>
+    <div class="container">
+        <div class="top">
+            <input type="text" placeholder="Enter city name..." id="cityName">
+            <button>
+                <i class="fa-solid fa-magnifying-glass" id="searchBtn"></i>
+            </button>
+        </div>
+        <div class="error">
+            <p>invalid City Name</p>
+        </div>
+        <div class="weather-container">
+            <div class="middle">
+                <img src="assest/images/clouds.png" class="weather-image" id="weather-image">
+                <h1 class="temp">00<sup>°C</sup></h1>
+                <h2 class="city">City Name</h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
